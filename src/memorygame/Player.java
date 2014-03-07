@@ -10,10 +10,21 @@ package memorygame;
  *
  * @author Skylar
  */
-public class Player {
-    String name;
-    String wins;
-    String losses;
-    String plays;
+import java.io.Serializable;
+public class Player implements Serializable {
+    private String name;
+    private String wins;
+    private String losses;
+    private String plays;
+
+    public Player() {
+    }
+
+    public Player(String name, String wins, String losses, String plays) {
+        this.name = name;
+        this.wins = wins;
+        this.losses = losses;
+        this.plays = plays;
+    }
     
 }

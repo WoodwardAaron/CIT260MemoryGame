@@ -12,7 +12,8 @@ import java.util.Scanner;
  *
  * @author Skylar
  */
-public class Board {
+import java.io.Serializable;
+public class Board implements Serializable {
     
     private int r1,c1;
     private int r2,c2;
@@ -111,5 +112,16 @@ public class Board {
         getMatch();
         
     }        
+
+    public Board(int r1, int c1, int r2, int c2) {
+        this.r1 = r1;
+        this.c1 = c1;
+        this.r2 = r2;
+        this.c2 = c2;
+    }
+
+    public Board() {
+    }
+
 }
 

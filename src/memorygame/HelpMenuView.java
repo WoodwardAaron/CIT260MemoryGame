@@ -1,18 +1,14 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package memorygame ;
-
 import java.util.Scanner;
 
 
 
 /**
  *
- * @author skylar
+ * @author Aaron
  */
-public class HelpMenuView  {
+import java.io.Serializable;
+public class HelpMenuView implements Serializable  {
         
     private final static String[][] menuItems = {
         {"B", "The board"},
@@ -41,5 +37,7 @@ public class HelpMenuView  {
         }
         System.out.println("\t===============================================================\n");
     }
+
+   
   
 }

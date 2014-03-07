@@ -9,7 +9,8 @@ package memorygame;
  *
  * @author Skylar
  */
-public class HelpMenuControl  {
+import java.io.Serializable;
+public class HelpMenuControl implements Serializable {
     
     public HelpMenuControl() {
         
@@ -57,6 +58,8 @@ public class HelpMenuControl  {
         System.out.println(
         "\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
+
+   
     
   
 }

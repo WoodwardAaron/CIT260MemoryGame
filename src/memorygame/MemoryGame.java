@@ -1,12 +1,11 @@
 package memorygame;
 
 import java.util.Scanner;
-
-/**
- *
- * @author Skylar
+/*
+ * @author Aaron
  */
-public class MemoryGame {
+import java.io.Serializable;
+public class MemoryGame implements Serializable  {
     String name;
     String instructions = "This is the memory game. You must begin by selecting two positions 1)by selecting \n"
             +"the letter column with the number row to select the square to be turned over. After the first \n"
@@ -94,5 +93,9 @@ public class MemoryGame {
     
 
     }
+
+    public MemoryGame() {
+    }
+    
 }   
 

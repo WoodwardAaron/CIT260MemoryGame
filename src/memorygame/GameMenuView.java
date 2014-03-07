@@ -10,7 +10,8 @@ import java.util.Scanner;
  *
  * @author aaron
  */
-public class GameMenuView {
+import java.io.Serializable;
+public class GameMenuView implements Serializable{
     
     private MemoryGame memorygame;
     private GameMenuControl gameMenuControl ; 
@@ -81,6 +82,9 @@ public class GameMenuView {
             System.out.println("\t   " + menuItems[i][0] + "\t" + menuItems[i][1]);
         }
         System.out.println("\t===============================================================\n");
+    }
+
+    public GameMenuView() {
     }
   
 }

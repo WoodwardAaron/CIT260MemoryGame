@@ -1,8 +1,8 @@
 package memorygame;
 
 import java.util.Scanner;
- 
-public class Score {
+ import java.io.Serializable;
+public class Score implements Serializable{
     public static void main(String[] args){
        int total, score; 
        float percentage;
@@ -18,4 +18,8 @@ public class Score {
  
        System.out.println("The percentage is = " + percentage + " %");
     }
+
+    public Score() {
+    }
+    
 }

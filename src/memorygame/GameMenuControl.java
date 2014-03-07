@@ -8,7 +8,8 @@ package memorygame;
  *
  * @author aaron
  */
-public class GameMenuControl {
+import java.io.Serializable;
+public class GameMenuControl implements Serializable{
 
     private MemoryGame memorygame;
     private Board board;
@@ -49,6 +50,9 @@ public class GameMenuControl {
     public void displayHelpMenu() {
         HelpMenuView helpMenu = new HelpMenuView();
         helpMenu.getInput();
+    }
+
+    public GameMenuControl() {
     }
     
 

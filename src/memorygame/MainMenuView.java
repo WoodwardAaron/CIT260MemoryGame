@@ -1,18 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package memorygame;
 
 import java.util.Scanner;
 
 /**
  *
- * @author Skylar
+ * @author Aaron
  */
-public class MainMenuView {
+import java.io.Serializable;
+public class MainMenuView implements Serializable {
 private final static String[][] menuItems = {
         {"A", "Start Game"},
         {"B", "Help Menu"},
@@ -29,7 +24,7 @@ private final static String[][] menuItems = {
     } 
     
     // display the help menu and get the end users input selection
-    public String getInput() {       
+     String getInput() {       
               
         String command;
         Scanner inFile = new Scanner(System.in);
@@ -57,7 +52,10 @@ private final static String[][] menuItems = {
             System.out.println("\t   " + menuItems[i][0] + "\t" + menuItems[i][1]);
         }
         System.out.println("\t===============================================================\n");
+  
     }
+
+   
   
 }
  
