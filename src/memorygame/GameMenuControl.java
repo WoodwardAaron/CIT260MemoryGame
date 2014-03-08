@@ -18,11 +18,6 @@ public class GameMenuControl implements Serializable{
         this.memorygame = memorygame;
         this.board = game.board;
     }
-
-       
-    
-
-       
    public void displayContinue() {
         System.out.println("\n\tdisplayBoard() called");
     }
@@ -44,8 +39,7 @@ public class GameMenuControl implements Serializable{
         String playerAStatistics = this.memorygame.playerA.getPlayerStastics();
         System.out.println("\n\t++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
         System.out.println("\t " + playerAStatistics);
-        
-    }
+        }
     
     public void displayHelpMenu() {
         HelpMenuView helpMenu = new HelpMenuView();

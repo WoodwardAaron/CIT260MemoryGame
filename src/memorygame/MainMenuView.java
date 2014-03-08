@@ -37,9 +37,6 @@ private final static String[][] menuItems = {
             command = inFile.nextLine();
             command = command.trim().toUpperCase();
             
-            
-          
-        
          return command;
     }
 
@@ -54,8 +51,6 @@ private final static String[][] menuItems = {
         System.out.println("\t===============================================================\n");
   
     }
-
-   
-  
+    
 }
  

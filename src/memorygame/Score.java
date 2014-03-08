@@ -18,8 +18,6 @@ public class Score implements Serializable{
  
        System.out.println("The percentage is = " + percentage + " %");
     }
-
     public Score() {
     }
-    
-}
+  }

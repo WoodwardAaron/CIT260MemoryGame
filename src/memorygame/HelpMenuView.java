@@ -36,8 +36,5 @@ public class HelpMenuView implements Serializable  {
             System.out.println("\t   " + menuItems[i][0] + "\t" + menuItems[i][1]);
         }
         System.out.println("\t===============================================================\n");
-    }
-
-   
-  
+    } 
 }

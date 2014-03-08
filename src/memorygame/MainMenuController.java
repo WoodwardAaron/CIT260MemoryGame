@@ -15,10 +15,7 @@ public class MainMenuController implements Serializable {
         
             //checkForMatch
         
-    }
-    
-    
-        
+    }    
     public void displayHelpMenu() {
         System.out.println();
         displayHelpBorder();     
@@ -38,8 +35,6 @@ public class MainMenuController implements Serializable {
 
     public MainMenuController() {
     }
-    
-        
         }   
      
      

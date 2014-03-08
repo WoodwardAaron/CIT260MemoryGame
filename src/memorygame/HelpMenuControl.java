@@ -3,11 +3,9 @@
  * and open the template in the editor.
  */
 package memorygame;
-
-
 /**
  *
- * @author Skylar
+ * @author Aaron
  */
 import java.io.Serializable;
 public class HelpMenuControl implements Serializable {
@@ -25,9 +23,6 @@ public class HelpMenuControl implements Serializable {
                 + "\n\t matching cards per set. The default board has all cards faced down.");
         displayHelpBorder();
     }
-    
-    
-        
     public void displayGameHelp() {
         System.out.println();
         displayHelpBorder();     
@@ -57,9 +52,5 @@ public class HelpMenuControl implements Serializable {
     public void displayHelpBorder() {       
         System.out.println(
         "\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-    }
-
-   
-    
-  
-}
+    } 
+} 

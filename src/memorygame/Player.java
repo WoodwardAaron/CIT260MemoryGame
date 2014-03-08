@@ -8,7 +8,7 @@ package memorygame;
 
 /**
  *
- * @author Skylar
+ * @author Aaron
  */
 import java.io.Serializable;
 public class Player implements Serializable {
@@ -19,12 +19,10 @@ public class Player implements Serializable {
 
     public Player() {
     }
-
     public Player(String name, String wins, String losses, String plays) {
         this.name = name;
         this.wins = wins;
         this.losses = losses;
         this.plays = plays;
-    }
-    
+    }   
 }

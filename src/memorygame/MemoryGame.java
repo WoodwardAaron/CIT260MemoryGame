@@ -74,9 +74,6 @@ public class MemoryGame implements Serializable  {
         // add another do while loop here
         // code to run game goes here
         // add a switch statement here
-      
-    
- 
        }
        while (command.equals("Q")==false);
     }
@@ -90,8 +87,6 @@ public class MemoryGame implements Serializable  {
     public void displayHelp() {
         System.out.println("\nWelcome " + this.name + "\n");
         System.out.println(this.instructions);
-    
-
     }
 
     public MemoryGame() {

@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Skylar
+ * @author Aaron
  */
 import java.io.Serializable;
 public class Board implements Serializable {
@@ -109,8 +109,7 @@ public class Board implements Serializable {
         else System.out.print("Error, Please enter a valid Coordinate /n");
         
         //this is where we check for match
-        getMatch();
-        
+        getMatch(); 
     }        
 
     public Board(int r1, int c1, int r2, int c2) {
@@ -122,6 +121,5 @@ public class Board implements Serializable {
 
     public Board() {
     }
-
 }
 
